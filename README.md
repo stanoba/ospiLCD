@@ -15,7 +15,7 @@ Install RPLCD directly from `PyPI
 
 Intall smbus and i2c tools:
 
-    $ sudo apt install python-smbus i2c-tools
+    $ sudo apt-get install python-smbus i2c-tools
 
 Intall ospiLCD script:
 

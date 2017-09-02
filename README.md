@@ -27,6 +27,10 @@ Solder pin header to ospi board:
 
 ![pin header](/img/ospilcd2.jpg)
 
+Remove pull-up resistors from I2C LCDbackpack:
+
+![pin header](/img/ospilcd4.jpg)
+
 Connect I2C LCD to ospi pin header:
 
 ![pin header](/img/ospilcd3.jpg)
@@ -46,3 +50,14 @@ Add folowing line to cron:
     */1 * * * * python /home/pi/ospiLCD.py
     
 Note: Script is executed every minute.
+
+Output examples:
+=====
+Blue LCD 16x2:
+![pin header](/img/ospilcd5.jpg)
+
+Green LCD 20x4:
+![pin header](/img/ospilcd6.jpg)
+
+Green LCD 20x4 and ospi with expansion board (E1):
+![pin header](/img/ospilcd7.jpg)

@@ -23,13 +23,14 @@ Intall ospiLCD script:
     $ wget  https://raw.githubusercontent.com/stanoba/ospiLCD/master/ospiLCD.py
     $ chmod +x ospiLCD.py
     
-Solder pin header to ospi board:
+Solder 2x3 pin header to ospi board:
 
 ![pin header](/img/ospilcd2.jpg)
 
-Remove pull-up resistors from I2C LCDbackpack:
+Remove two 4K7 pull-up resistors from I2C LCDbackpack:
 
 ![pin header](/img/ospilcd4.jpg)
+Resistors are feeding 5V to Raspberry pi GPIO pins = not safe.
 
 Connect I2C LCD to ospi pin header:
 

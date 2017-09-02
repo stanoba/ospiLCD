@@ -27,9 +27,10 @@ Solder 2x3 pin header to ospi board:
 
 ![pin header](/img/ospilcd2.jpg)
 
-Remove two 4K7 pull-up resistors from I2C LCDbackpack:
+Remove two 4K7 pull-up resistors from I2C LCD backpack:
 
 ![pin header](/img/ospilcd4.jpg)
+
 Resistors are feeding 5V to Raspberry pi GPIO pins = not safe.
 
 Connect I2C LCD to ospi pin header:
@@ -42,11 +43,11 @@ Run I2C scanner to detect all available address:
 
 You should see I2C LCD at address 0x27:
 
-Schedule scipt via cron:
+Schedule script via cron:
 
     $ crontab -e
     
-Add folowing line to cron:
+Add folowing line into cron:
 
     */1 * * * * python /home/pi/ospiLCD.py
     

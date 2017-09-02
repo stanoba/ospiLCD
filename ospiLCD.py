@@ -110,7 +110,7 @@ else:
 
 # check local network status
 net_ip = check_output(['hostname', '-I'])
-if net_ip is not None:
+if len(net_ip) > 7:
 	mc=mc+'\x00'
 else:
 	mc=mc+'\x01'

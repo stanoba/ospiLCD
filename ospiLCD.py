@@ -8,10 +8,10 @@
 
 ################ Parameters ####################
 osAddress="127.0.0.1" # OpenSprinkler address (defaul 127.0.0.1)
-osPort=8080 # OpenSprinkler port (default 8080)
+osPort=80 # OpenSprinkler port (default 8080)
 md5hash="a6d82bced638de3def1e9bbb4983225c" # OpenSprinkler password MD5 hash (default opendoor)
-LCDcols=16 #  LCD columns (16 or 20)
-LCDrows=2  #  LCD rows (2 or 4)
+LCDcols=20 #  LCD columns (16 or 20)
+LCDrows=4  #  LCD rows (2 or 4)
 
 
 """
@@ -138,7 +138,10 @@ if totaltime > 0:
 	line4 = "Rt:%d:%02d:%02d h:m:s" % (r_h, r_m, r_s) # Remaining watering time
 else:
 	#line4 = "IP:"+socket.inet_ntoa(struct.pack('!L', ja.settings.eip)) # external IP
-	line4 = ""+net_ip # internal IP
+	if len(net_ip) > 7:
+		line4 = ""+net_ip # internal IP
+	else:
+		line4 = "No Network!"
 
 print line1
 print line2

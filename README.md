@@ -8,8 +8,7 @@ This is OpenSprinkler pi I2C LCD python script which gets data from ospi API and
 Installation instructions
 =====
 
-Install RPLCD directly from `PyPI
-<https://pypi.python.org/pypi/RPLCD/>`_ using pip:
+Install RPLCD library directly from [PyPI](https://pypi.python.org/pypi/RPLCD/) using pip:
 
     $ sudo pip install RPLCD
 

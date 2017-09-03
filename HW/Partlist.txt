@@ -1,0 +1,6 @@
+Part     Value          Package
+
+JP1      LCD            1X04     pinhead
+JP2      OSPI           2X03     pinhead
+R1       4K7            R0603    resistor
+R2       4K7            R0603    resistor

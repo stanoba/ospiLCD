@@ -7,6 +7,7 @@ This is OpenSprinkler pi I2C LCD python script which gets data from OpenSprinkle
 * 16x2 and 20x4 I2C LCDs are supported (PCF8574T based, after some changes MCP23008 is supported too)
 * first two lines are identical to LCD on OpenSprinkler 2.x (with icons)
 * third and fourth lines are displaying information based on ospi status (remaining watering time, water level in %, E1 stations status)
+* LCD is refreshed in one minute interval (can be changed in cron)
 * this script in combination with Raspberry pi and I2C LCD can be used as remote OpenSprinkler LCD 
 
 ![ospiLCD](/img/ospilcd1.jpg)

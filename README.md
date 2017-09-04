@@ -51,7 +51,15 @@ Run I2C scanner to detect all available address:
 You should see I2C LCD at address 0x27:
 ![i2c scan](/img/ospilcd8.jpg)
 
-Schedule script via cron:
+Edit parameters (osAddress, osPort, md5hash, LCDcols, LCDrows) according your ospi and LCD in /home/pi/ospiLCD.py:
+
+    $ nano /home/pi/ospiLCD.py
+
+Test the script if is working:
+
+    $ /home/pi/ospiLCD.py
+
+If the script is working without error, schedule it via cron:
 
     $ crontab -e
     

@@ -8,6 +8,7 @@ Git: https://github.com/stanoba/ospiLCD
 """
 
 import json
+import locale
 from collections import namedtuple
 from time import *
 from RPLCD import i2c
@@ -21,6 +22,7 @@ LCD_i2c_expander = 'PCF8574'  # PCF8574 (default, ebay), MCP23008 (used in Adafr
 LCD_i2c_address = 0x27  # LCD I2C address (default 0x27)
 LCD_cols = 16  # LCD columns (16 or 20)
 LCD_rows = 2   # LCD rows (2 or 4)
+date_locale = 'en_US.UTF-8'  # Set to your Raspberry pi locale eg. 'en_GB.UTF-8' or 'it_IT.UTF-8'
 
 """
 this example generate md5 pass
@@ -125,6 +127,7 @@ r_h, r_m = divmod(r_m, 60)
 
 #######################################################################################################
 # Define LCD lines 1 & 2
+locale.setlocale(locale.LC_ALL, date_locale)
 line1 = strftime("%H:%M %a %m-%d", gmtime(ja.settings.devt))  # device time
 line2 = "MC:"+mc  # station status
 

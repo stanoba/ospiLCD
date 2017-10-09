@@ -80,7 +80,7 @@ You can find LCD adapter PCB in HW folder.
 ![PCB2](/img/ospilcd8.jpg)
 ![PCB3](/img/ospilcd10.jpg)
 
-PCB can be ordered [here](https://PCBs.io/share/zM39D).
+PCB can be ordered from [PCBs.io](https://PCBs.io/share/zM39D). ($0.89 / 4pcs)
 
 3D Printed case
 =====

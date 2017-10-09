@@ -75,6 +75,7 @@ Note: Script is executed every minute.
 HW - I2C LCD bracket
 =====
 You can find connection PCB in HW folder.
+
 ![PCB1](/HW/ospiLCD_PCB.jpg)
 ![PCB2](/img/ospilcd8.jpg)
 ![PCB3](/img/ospilcd10.jpg)

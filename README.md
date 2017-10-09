@@ -13,6 +13,7 @@ This is OpenSprinkler pi I2C LCD python script which gets data from OpenSprinkle
 
 
 ![ospiLCD](/img/ospilcd1.jpg)
+![ospiLCD](/img/ospilcd9.jpg)
 
 
 Installation instructions
@@ -71,12 +72,21 @@ Add folowing line into cron:
     
 Note: Script is executed every minute.
 
-HW - in development
+HW - I2C LCD bracket
 =====
-You can find connection PCB in HW folder (not yet fabricated).
-![PCB](/HW/ospiLCD_PCB.jpg)
+You can find connection PCB in HW folder.
+![PCB1](/HW/ospiLCD_PCB.jpg)
+![PCB2](/img/ospilcd8.jpg)
+![PCB3](/img/ospilcd10.jpg)
 
 PCB can be ordered [here](https://PCBs.io/share/zM39D).
+
+3D Printed case
+=====
+STL files:https://www.thingiverse.com/thing:2576148
+
+![case_bottom](/img/ospilcd11.jpg)
+![case_top](/img/ospilcd12.jpg)
 
 
 Output examples:

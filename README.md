@@ -52,7 +52,7 @@ Run I2C scanner to detect all available address:
     $ sudo i2cdetect -y 1
 
 You should see I2C LCD at address 0x27:
-![i2c scan](/img/ospilcd8.jpg)
+![i2c scan](/img/ospilcd8a.jpg)
 
 Edit parameters (osAddress, osPort, md5hash, LCDcols, LCDrows) according your ospi and LCD in /home/pi/ospiLCD.py:
 

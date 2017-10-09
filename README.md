@@ -72,9 +72,9 @@ Add folowing line into cron:
     
 Note: Script is executed every minute.
 
-HW - I2C LCD bracket
+HW - I2C LCD adapter
 =====
-You can find connection PCB in HW folder.
+You can find LCD adapter PCB in HW folder.
 
 ![PCB1](/HW/ospiLCD_PCB.jpg)
 ![PCB2](/img/ospilcd8.jpg)
@@ -88,7 +88,7 @@ STL files:https://www.thingiverse.com/thing:2576148
 
 ![case_bottom](/img/ospilcd11.jpg)
 ![case_top](/img/ospilcd12.jpg)
-
+![case](/img/ospilcd9.jpg)
 
 Output examples:
 =====
